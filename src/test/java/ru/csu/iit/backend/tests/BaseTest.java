@@ -7,7 +7,7 @@ import java.io.InputStream;
 import java.util.Properties;
 
 public class BaseTest {
-    Properties properties;
+    public Properties properties;
     protected final Logger logger = Logger.getLogger(BaseTest.class);
 
     public BaseTest() {

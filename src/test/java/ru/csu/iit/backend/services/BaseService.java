@@ -12,7 +12,7 @@ import static io.restassured.RestAssured.given;
 
 public class BaseService {
     private final RequestSpecification spec;
-    private Properties properties;
+    public Properties properties;
 
     public BaseService(Properties properties) {
         this.properties = properties;
